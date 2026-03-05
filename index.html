@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIHANGA THATHSARA</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script src="scripts.js" defer></script>
+
+</head>
+
+<body>
+    <header id="navbar" class="navbar">
+        <a href="#" class="logo">Thathsara<span style="color:var(--accent)">.</span></a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="sidenav-container">
+        <i class="fas fa-bars" id="openBtn" class="open-btn" onclick="toggleSideNavbar()"></i>
+    </div>
+    <div id="sidenavbar" class="sidenav">   
+        <div class="side-nav-links">
+            <i class="fas fa-xmark" id="closeBtn" class="close-btn" onclick="hideSideNavbar()"></i>
+            <a href="#" class="sidenav-logo">Thathsara<span style="color:var(--accent)">.</span></a>
+            <a href="#about">About</a>
+            <a href="#project">Projects</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <section id="home" class="home">
+        <p style="font-family:var(--font-head); color:var(--accent); letter-spacing:3px; margin-bottom:1rem;">PORTFOLIO
+            2026</p>
+        <h1>VIHANGA THATHSARA</h1>
+        <h2>
+            <span class="role-scroller">
+                <span class="role-wrapper">
+                    <span class="role-item">WEB DEVELOPER</span>
+                    <span class="role-item">FULL STACK DEV</span>
+                    <span class="role-item">UI/UX DESIGNER</span>
+                    <span class="role-item">CREATIVE THINKER</span>
+                    <span class="role-item">PROBLEM SOLVER</span>
+                </span>
+            </span>
+        </h2>
+    </section>
+
+
+    <section id="about" class="about scroll-section">
+        <div class="about-grid">
+
+            <div class="about-main-text reveal-left">
+                Merging technical logic with
+                <span class="accent">creative aesthetics</span>
+                to build digital products that stand out.
+            </div>
+
+            <div class="about-description reveal-right">
+                <p>
+                    I am Thathsara Rosa, a developer who doesn't just write code,
+                    but crafts experiences. In a web full of templates, I strive
+                    to create unique, problem-solving digital realities.
+                </p>
+
+                <p>
+                    From the first pixel of design to the final line of backend logic,
+                    I handle the entire lifecycle of digital production.
+                </p>
+
+                <div class="qualification reveal-up">
+                    <h4>Qualification</h4>
+                    <p>BSc (Hons) in Software Engineering</p>
+                    <span>The Open University of Sri Lanka</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="project" class="project">
+        <div class="project-row">
+            <div class="project-details">
+                <h2 class="project-title">Travel Buddy </h2>
+                <div class="project-meta">
+                    <span class="tech">Android</span>
+                    <span class="tech">Java</span>
+                    <span class="tech">Kotlin</span>
+                </div>
+                <p class="project-desc">
+                    A mobile app that serves as a comprehensive travel companion, offering personalized recommendations,
+                </p>
+                <a href="#" class="btn-arrow">View Repo<i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="project-image">
+                <img src="img/trvbudApp.png" alt="TravelBuddy App">
+            </div>
+        </div>
+
+        <div class="project-row">
+            <div class="project-details">
+                <h2 class="project-title">School Staff Management System</h2>
+                <div class="project-meta">
+                    <span class="tech">Java</span>
+                </div>
+                <p class="project-desc">
+                    A Java-based desktop Application.
+                    It helps schools efficiently manage staff details, attendance, and role-based access.
+                </p>
+                <a href="#" class="btn-arrow">View Repo<i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="project-image">
+                <img src="img/SchoolStafMang.png" alt="School Staff Management System">
+            </div>
+        </div>
+
+        <div class="project-row">
+            <div class="project-details">
+                <h2 class="project-title">Farmer's Market Management System</h2>
+                <div class="project-meta">
+                    <span class="tech">HTML</span>
+                    <span class="tech">CSS</span>
+                    <span class="tech">SQL</span>
+                </div>
+                <p class="project-desc">
+                    A web-based system developed to manage vendor registration, stall reservations, product listings,
+                    and
+                    customer orders for a weekly farmer’s market.
+                </p>
+                <a href="#" class="btn-arrow">View Repo<i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="project-image">
+                <img src="img/venderMange.png" alt="Farmer's Market Management System">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="services" class="services-section">
+        <span class="section-header reveal-up">2026 // Capabilities</span>
+
+        <div class="services-grid">
+            <div class="service-card reveal-left">
+                <div class="service-icon"><i class="fas fa-code"></i></div>
+                <h3 class="service-title">Development</h3>
+                <p class="service-desc">
+                    Scalable websites and web apps built with modern frameworks like React, Next.js, and Node.
+                </p>
+            </div>
+
+            <div class="service-card reveal-up">
+                <div class="service-icon"><i class="fas fa-pen-nib"></i></div>
+                <h3 class="service-title">Design</h3>
+                <p class="service-desc">
+                    User-centric UI/UX design that looks beautiful and functions flawlessly across all devices.
+                </p>
+            </div>
+
+            <div class="service-card reveal-right">
+                <div class="service-icon"><i class="fas fa-rocket"></i></div>
+                <h3 class="service-title">SEO & Strategy</h3>
+                <p class="service-desc">
+                    Optimizing digital presence to ensure your brand reaches the right audience effectively.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p style="color:var(--text-dim); margin-bottom:2rem;">HAVE AN IDEA?</p>
+        <a href="mailto:hello@thathsara.dev" class="big-cta">Let's Build It</a>
+
+        <div style="display:flex; justify-content:center; gap:3rem; margin-top:3rem;">
+            <a href="#" class="con-social">LINKEDIN</a>
+            <a href="#" class="con-social">GITHUB</a>
+            <a href="#" class="con-social">INSTAGRAM</a>
+        </div>
+        <p style="margin-top:4rem; color:#444; font-size:0.8rem;">&copy; 2026 THATHSARA ROSA</p>
+    </footer>
+</body>
+
+</html>
